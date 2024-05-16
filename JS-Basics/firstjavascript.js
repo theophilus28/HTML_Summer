@@ -28,3 +28,24 @@ let selection = 'name';
 person[selection] = 'MD';
 
 console.log(person.name);
+
+//arrays
+let selectedColors = ['red', 'blue'];
+console.log(selectedColors[0]);
+selectedColors[2] = 'green';
+console.log(selectedColors);
+console.log(selectedColors.length);
+
+//functions
+function greet(name, lastName) {
+    console.log('Hello ' + name + ' ' + lastName + '!');
+}
+
+greet('Marcus', 'David');
+
+function square(number) {
+    return number * number;
+}
+
+let nummer = square(2);
+console.log(nummer);
